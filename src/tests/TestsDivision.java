@@ -10,6 +10,8 @@ public class TestsDivision {
 		Division division2 = new Division("azr","Terminale");
 
 		System.out.print(division2.toString());
+		
+		
 	}
 
 }

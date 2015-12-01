@@ -1,5 +1,14 @@
 package classes;
 
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import dao.DivisionDAO;
+import dao.ConnexionPostgreSql;
+import dao.DAO;
+
 public class Division {
 	
 	private String code;
@@ -44,4 +53,6 @@ public class Division {
 	public String toString(){
 		return code + " " + libelle;
 	}
+	
+	
 }

@@ -25,6 +25,9 @@ public class testDAO {
 		
 		division.delete(maDivision);
 		
+		division.readAll();
+		
+		
 		Eleve unEleve = new Eleve("TR2", "Troudman", "Roger","15/05/1996", new Division("STS1","classe bts SIO 1"));
 		
 		eleve.create(unEleve);
